@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700,900|Playfair+Display:400i");
+body {
+  max-width: 1600px;
+  font-family: "Raleway", sans-serif;
+  background-image: url(https://images81.fotosik.pl/628/3c74231fdd567d79med.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  color: #010002; }
+
+.text-center {
+  margin-left: auto;
+  margin-right: auto; }
+  .text-center:hover .icons {
+    color: #FFF; }
+  .text-center .icons {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    border-width: 0;
+    margin-left: 1%;
+    margin-top: 3%; }
+    .text-center .icons:hover .word {
+      color: #FFF; }
+    .text-center .icons .fa {
+      font-size: 70px; }
+    .text-center .icons .word {
+      font-size: 14px; }
+  .text-center .ic-rock,
+  .text-center .rock {
+    color: #6a6a72; }
+    .text-center .ic-rock:hover,
+    .text-center .rock:hover {
+      background-color: #6a6a72; }
+  .text-center .ic-paper,
+  .text-center .paper {
+    color: #00c7e8; }
+    .text-center .ic-paper:hover,
+    .text-center .paper:hover {
+      background-color: #00c7e8; }
+  .text-center .ic-scissors,
+  .text-center .scissors {
+    color: #e94949; }
+    .text-center .ic-scissors:hover,
+    .text-center .scissors:hover {
+      background-color: #e94949; }
+
+.welcome {
+  font-weight: 700;
+  color: #010002; }
+  .welcome .label {
+    padding: 10px; }
+
+.btn-new {
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #010002;
+  margin-top: 5%;
+  border-radius: 5%; }
+
+.vs {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 1%; }
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.point {
+  background-color: #e94949;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 2%; }
+
+.line1 {
+  margin-bottom: 4%;
+  text-transform: uppercase; }
+
+.select {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e94949; }
+
+.score {
+  font-size: 18px;
+  font-weight: 700;
+  color: black; }
+
+.kot {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto; }
+
+.walka {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto; }
