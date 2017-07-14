@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700,900|Playfair+Display:400i')
+$mainfont: 'Raleway', sans-serif
+$colorred: #e94949
+$colorgrey: #6a6a72
+$colorblue: #00c7e8
+$fontcolor: #010002
+$color2: #fff
+.marginset
+	margin-left: auto
+	margin-right: auto
+body
+	max-width: 1600px
+	font-family: $mainfont
+	background-image: url(https://images81.fotosik.pl/628/3c74231fdd567d79med.jpg)
+	background-repeat: no-repeat
+	background-size: 100% 100vh
+	color: $fontcolor 
+.text-center
+	@extend .marginset
+	&:hover .icons
+		color: $color2	
+	.icons
+		height:	100px
+		width: 100px
+		border-radius: 50%
+		background-color: $color2
+		border-width: 0
+		margin-left: 1%
+		margin-top: 3%
+		&:hover .word
+			color: $color2
+		.fa
+			font-size: 70px
+		.word
+			font-size: 14px
+	.ic-rock,
+	.rock
+		color: $colorgrey
+		&:hover
+			background-color: $colorgrey
+	.ic-paper,
+	.paper
+		color: $colorblue
+		&:hover
+			background-color: $colorblue
+	.ic-scissors,
+	.scissors
+		color: $colorred
+		&:hover
+			background-color: $colorred
+.welcome
+	font-weight: 700
+	color: $fontcolor
+	.label
+		padding: 10px
+.btn-new
+	padding: 20px
+	font-size: 20px
+	color: $color2
+	background-color: $fontcolor 
+	margin-top: 5%
+	border-radius: 5%
+.vs
+	font-size: 20px
+	font-weight: 700
+	margin-top: 1%
+.name
+	font-size: 18px
+	font-weight: 700
+	text-transform: uppercase
+.point
+	background-color: $colorred
+	padding: 8px
+	font-size: 25px
+	font-weight: 700
+	margin-right: 2%
+.line1
+	margin-bottom: 4%
+	text-transform: uppercase
+.select
+	font-size: 18px
+	font-weight: 700
+	color: $colorred
+.score
+	font-size: 18px
+	font-weight: 700
+	color: black
+.playerwin,
+.compwin 
+	@extend .marginset
+	width: 250px
+	height: auto
