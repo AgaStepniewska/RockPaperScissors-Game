@@ -30,6 +30,7 @@ var newGameElem = document.getElementById('js-newGameElement'),
 	resultsElem = document.getElementById('js-resultsTableElement');
 var gif = document.getElementById('gif');
 var gif2 = document.getElementById("gif2");
+var footer = document.getElementById('footer');
 
 function setGameElements() {
 	switch(gameState) {
@@ -39,6 +40,7 @@ function setGameElements() {
 			resultsElem.style.display = 'block';
 			gif.style.display = "none";
 			gif2.style.display = "none";
+			footer.style.display = "block";
 		break;
 		case 'ended':
 			newGameBtn.innerText = 'Play again';
@@ -49,6 +51,7 @@ function setGameElements() {
 			resultsElem.style.display = 'none';
 			gif.style.display = "none";
 			gif2.style.display = "none";
+			footer.style.display = "none";
 	}
 }
 setGameElements();
