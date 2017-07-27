@@ -81,17 +81,23 @@ body {
     font-size: 70px; }
   .text-center .icons .word {
     font-size: 14px; }
-.text-center .ic-rock .rock {
+.text-center .ic-rock,
+.text-center .rock {
   color: #6a6a72; }
-  .text-center .ic-rock .rock:hover {
+  .text-center .ic-rock:hover,
+  .text-center .rock:hover {
     background-color: #6a6a72; }
-.text-center .ic-paper .paper {
+.text-center .ic-paper,
+.text-center .paper {
   color: #00c7e8; }
-  .text-center .ic-paper .paper:hover {
+  .text-center .ic-paper:hover,
+  .text-center .paper:hover {
     background-color: #00c7e8; }
-.text-center .ic-scissors .scissors {
+.text-center .ic-scissors,
+.text-center .scissors {
   color: #e94949; }
-  .text-center .ic-scissors .scissors:hover {
+  .text-center .ic-scissors:hover,
+  .text-center .scissors:hover {
     background-color: #e94949; }
 
 .welcome {
